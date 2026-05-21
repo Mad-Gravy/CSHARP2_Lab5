@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 using CustomerProductClasses;
+/* Had to create the product class in order to ceate and test the ProdutList class, then had to figure out how to make a solution file to make the test work. This was a doozy for me lol */
+
 
 namespace CustomerProductListTests
 {
@@ -13,14 +15,14 @@ namespace CustomerProductListTests
         static void Main(string[] args)
         {
             Console.SetWindowSize(120, 40);
-            //TestProductListConstructor();
-            //TestProductListAdd();
-            //TestProductListSaveAndFill();
-            //TestProductListRemove();
-            //TestProductEquals();
-            //TestProductGetHashCode();
-            //TestProductEqualityOperator();
-            //TestProductInequalityOperator();
+            TestProductListConstructor();
+            TestProductListAdd();
+            TestProductListSaveAndFill();
+            TestProductListRemove();
+            TestProductEquals();
+            TestProductGetHashCode();
+            TestProductEqualityOperator();
+            TestProductInequalityOperator();
             TestProductListIndexer();
 
             Console.ReadLine();
