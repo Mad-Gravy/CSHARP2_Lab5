@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="../Bonyard.cs" />
+    <File Path="../Domino.cs" />
+    <File Path="../Program.cs" />
+  </Folder>
+  <Project Path="DominoAndBoneyard/DominoAndBoneyard.csproj" />
+</Solution>
